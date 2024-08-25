@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Customer extends User {
@@ -12,8 +11,8 @@ public class Customer extends User {
     public void main(User user) {
         Scanner scan = new Scanner(System.in);
 
-        Store cafe = new cafe();
-        Store restaurant = new restaurant();
+        Store cafe = new Cafe();
+        Store restaurant = new Restaurant();
 
         System.out.println("Select between CAFE or RESTAURANT");
         System.out.println("if you wanna see your Products, type SHOW");

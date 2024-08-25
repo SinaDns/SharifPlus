@@ -1,4 +1,3 @@
-import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
@@ -12,7 +11,7 @@ abstract class Store {
 }
 
 
-class restaurant extends Store {
+class Restaurant extends Store {
 
     @Override
     public void getMenu() {
@@ -187,7 +186,7 @@ class restaurant extends Store {
 }
 
 
-    class cafe extends Store {
+    class Cafe extends Store {
 
 
         public void getMenu() {
