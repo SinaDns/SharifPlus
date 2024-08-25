@@ -1,3 +1,5 @@
 .idea
 BP_Project.iml
-out/production
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
